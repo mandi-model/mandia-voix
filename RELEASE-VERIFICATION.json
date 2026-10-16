@@ -1,5 +1,5 @@
 {
-  "status": "exports_verified_before_publication",
+  "status": "uploaded_verified_prerelease",
   "date": "2026-10-16",
   "parameters": {
     "acoustic": 8423841,
@@ -18,5 +18,21 @@
   "Ivorian_accent_validated": false,
   "heavy_checkpoint_files_written_to_Mac": false,
   "full_training_checkpoints_preserved_in_Drive": true,
-  "export_weight_bytes": 37558131
+  "export_weight_bytes": 37558131,
+  "github_repository": "https://github.com/mandi-model/mandia-voix",
+  "github_release": "https://github.com/mandi-model/mandia-voix/releases/tag/v0.1.0",
+  "assets": [
+    {
+      "id": 648707232,
+      "name": "acoustic.pt",
+      "size": 33753207,
+      "digest": "sha256:16e7eed1750118bd5e328119fcb6d4cb805f8091bdbe6a6a3add9aad6f6cdfd7"
+    },
+    {
+      "id": 648712652,
+      "name": "vocoder.pt",
+      "size": 3804924,
+      "digest": "sha256:9e3ebc83859690d51ef9083730f77e0ff5f9434e320705fb9672be8a5bfd5fc4"
+    }
+  ]
 }
