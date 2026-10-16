@@ -1,5 +1,5 @@
 {
-  "status": "uploaded_verified_prerelease",
+  "status": "published_and_public_readback_verified",
   "date": "2026-10-16",
   "parameters": {
     "acoustic": 8423841,
@@ -34,5 +34,7 @@
       "size": 3804924,
       "digest": "sha256:9e3ebc83859690d51ef9083730f77e0ff5f9434e320705fb9672be8a5bfd5fc4"
     }
-  ]
+  ],
+  "public_asset_download_sha256_verified": true,
+  "source_commit": "b24ed7840eda80a353359f5d23ecc9bea4af730e"
 }
