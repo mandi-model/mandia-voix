@@ -1,0 +1,79 @@
+{
+  "pilot_ready": true,
+  "counts": {
+    "siwis/train": 9517,
+    "siwis/test": 113,
+    "siwis/validation": 120,
+    "ivoire/validation": 8,
+    "ivoire/test": 12,
+    "ivoire/train": 980
+  },
+  "seconds": {
+    "siwis/train": 37655.23566666667,
+    "siwis/test": 425.48,
+    "siwis/validation": 472.43,
+    "ivoire/validation": 78.44004166666667,
+    "ivoire/test": 87.07,
+    "ivoire/train": 6568.549916666667
+  },
+  "rejected": {},
+  "SIWIS_split": "normalized text + source_file union groups, SHA256 98/1/1; no claim of session-disjoint SIWIS testing",
+  "Ivoire_split": "preserved frozen source-disjoint 980/8/12, modulo declared signal/text-length exclusions",
+  "human_transcripts_checked": false,
+  "SIWIS_source": {
+    "repo": "Rcarvalo/siwis-fr-24k",
+    "revision": "c77b462ea80fc874bec2dcde330036f28357683a",
+    "official_source": "https://doi.org/10.7488/ds/1705",
+    "license": "CC-BY-4.0",
+    "unofficial_resampled_derivative": true,
+    "expected_clips_per_mirror": 9750,
+    "expected_hours_per_mirror": 10.709,
+    "not_Ivorian_accent": true,
+    "files": [
+      {
+        "path": "data/train-00000-of-00005.parquet",
+        "size": 176985411,
+        "sha256": "f2b4fa2c5c993b68f96dae665073b4c722fef456aacd4d4d92a3dd6618b969d4"
+      },
+      {
+        "path": "data/train-00001-of-00005.parquet",
+        "size": 177342139,
+        "sha256": "a16cb244487efb51d3bde455a81c31a3964bfe87124297976f72ea2546bd9538"
+      },
+      {
+        "path": "data/train-00002-of-00005.parquet",
+        "size": 252496229,
+        "sha256": "8279c324279b85d6a81f9a2b1ef463bb6f980dfeaf09d2a23dda53a5b960a04f"
+      },
+      {
+        "path": "data/train-00003-of-00005.parquet",
+        "size": 270516275,
+        "sha256": "a7e4b590570a8918259c507e784e2c8c3b838c48b3267f22b3bcc194a8227fab"
+      },
+      {
+        "path": "data/train-00004-of-00005.parquet",
+        "size": 161810087,
+        "sha256": "6e78835fdc9a1b51775058fa22b0b1eda0bd5c7f7e8b6f2b7a79bc9da92da701"
+      },
+      {
+        "path": "README.md",
+        "size": 1323,
+        "sha256": "07d7563c454d4f222aa13d1af483f5f9b257999963e2aa6599ada3ecc0072402"
+      },
+      {
+        "path": "stats.json",
+        "size": 640,
+        "sha256": "a4bcaa39271061aac414450b770228bc5ea5349d377d4b15d37f65758f4f96e9"
+      }
+    ]
+  },
+  "accent_confirmed_for_one_real_Ivoire_reference_only": true,
+  "feature_config": {
+    "mel": 80,
+    "sample_rate": 24000,
+    "n_fft": 1024,
+    "hop": 256
+  },
+  "normalization": "SIWIS train only, frozen for adaptation",
+  "frontend": "eSpeak NG text-to-speech: 1.51  Data at: /usr/lib/x86_64-linux-gnu/espeak-ng-data"
+}

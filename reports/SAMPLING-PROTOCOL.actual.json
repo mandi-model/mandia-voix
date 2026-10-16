@@ -1,0 +1,47 @@
+{
+  "no_weight_update": true,
+  "initial_acoustic_sha256": "b65fe825341d27bf3a088b5079b29b9f24a6f410b584f15a91143ee73002e758",
+  "vocoder_snapshot": {
+    "file": "step-003000-e40433b80a9d.pt",
+    "step": 3000,
+    "sha256": "7cc01ded07cc1e2aa67403250c8dbc2fb4477f988e918ae4a34bb33aac76cf52",
+    "bytes": 20937169,
+    "validation": 3.2669280305504795,
+    "signature": "cff96489ea7f4529c699424158d2f51435606a63c65d5521725734de9b387225",
+    "admitted": true
+  },
+  "parameters_TTS": 9368355,
+  "noise_amplitudes": [
+    1,
+    0.667,
+    0.5
+  ],
+  "ODE": "Euler32, same fixed duration predictor",
+  "development_ids": [
+    "siwis_neut_book_s03_0218",
+    "siwis_neut_parl_s03_0578",
+    "siwis_neut_book_s06_0345",
+    "siwis_neut_parl_s01_0562",
+    "siwis_neut_parl_s03_0084",
+    "siwis_neut_parl_s02_0475",
+    "siwis_neut_parl_s06_0567",
+    "siwis_neut_parl_s02_0303"
+  ],
+  "development_seeds": [
+    8800,
+    9900
+  ],
+  "fresh_seeds": [
+    12000,
+    13000
+  ],
+  "fresh_prompt_sha256": "3b78d6db6d3dac77341c04a2cabd8485eabdb5da114fd3f3bea6ee7790cdffd6",
+  "selection": "On8 previous development texts, aggregate both seeds: candidate must improve spoken word-edit count by >=2, not worsen spoken CER or repeated trigram excess. Then minimum word edits, character edits, closest amplitude to1. Baseline included. No fresh result selects amplitude.",
+  "source_sha256": {
+    "asr_sampling_v01.py": "096f989c8b52a88ee0a8e5689cecdf7ab1f559001b4091c62c3f7b5c75fc96fa",
+    "generate_sampling_v01.py": "a0099f03fcc0eb9d6ef6b7e99997d7ca247f78c394f1774668c4f2345f8ca0d6"
+  },
+  "reference": "https://github.com/shivammehta25/Matcha-TTS/blob/main/matcha/cli.py",
+  "reference_scope": "Official CLI exposes temperature and defaults to.667; this is motivation, not evidence that.667 improves this own model.",
+  "limits": "Development reused from prior diagnostic;8 fresh texts and2 seeds are still a small sample. Less noise may flatten prosody. No accent or naturalness validation, no new pretrained weights."
+}

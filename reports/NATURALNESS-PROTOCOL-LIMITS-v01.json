@@ -1,0 +1,19 @@
+{
+  "study": "naturalness-width-v01",
+  "recorded_before_final_evaluation": true,
+  "source_code_and_training_recipe_unchanged": true,
+  "reference_Ivoire_development_reuse": {
+    "new_stage_train_clips": 49,
+    "new_stage_development_clips_before_length_filter": 9,
+    "new_stage_temporal_guard_seconds": 10,
+    "important_limit": "The own vocoder warm-start lineage was previously trained on the larger IvoireTTS training set, including all58 clips of this reference recording. Therefore the9 reference clips are development reuse for this vocoder experiment, not an independent unseen-speech validation set. Both capacity branches inherit the same exposure.",
+    "valid_use": "Matched operational development criterion and domain-preservation guard only",
+    "not_established": "New-recording or cross-session voice generalization"
+  },
+  "SIWIS_validation": "Same20 grouped validation items reused for development across the studio and phase trials; not used as training gradients, not a new final test",
+  "fresh_text_test": "Six exact prompts reserved before either branch, checked against corpus prompts and the earlier6+8 reserved prompts. Same acoustic mels, ODE32, seeds1500+i for both branches. Single seed, no broad generalization or naturalness conclusion from ASR.",
+  "real_mel_controls": "Two SIWIS and two source-disjoint original Ivoire test utterances from earlier diagnostics. These are repeated diagnostic controls, not a newly untouched benchmark.",
+  "pretrained_TTS_weights_used": false,
+  "learned_naturalness_teacher_used": false,
+  "human_naturalness_validation_required": true
+}

@@ -1,0 +1,39 @@
+{
+  "condition": "t0500",
+  "temperature": 0.5,
+  "development_summary": {
+    "t1000": {
+      "words": 216,
+      "word_edits": 92,
+      "characters": 1180,
+      "character_edits": 290,
+      "repeated_trigram_excess": 0,
+      "temperature": 1,
+      "WER": 0.42592592592592593,
+      "CER": 0.2457627118644068
+    },
+    "t0667": {
+      "words": 216,
+      "word_edits": 67,
+      "characters": 1180,
+      "character_edits": 183,
+      "repeated_trigram_excess": 0,
+      "temperature": 0.667,
+      "WER": 0.3101851851851852,
+      "CER": 0.15508474576271186
+    },
+    "t0500": {
+      "words": 216,
+      "word_edits": 52,
+      "characters": 1180,
+      "character_edits": 145,
+      "repeated_trigram_excess": 0,
+      "temperature": 0.5,
+      "WER": 0.24074074074074073,
+      "CER": 0.1228813559322034
+    }
+  },
+  "fresh_used_for_selection": false,
+  "no_model_weights_modified": true,
+  "human_naturalness_validated": false
+}

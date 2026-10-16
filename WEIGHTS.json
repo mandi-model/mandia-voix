@@ -1,0 +1,34 @@
+{
+  "version": "v0.1.0",
+  "parameters": {
+    "acoustic": 8423841,
+    "vocoder": 944514
+  },
+  "parameters_total": 9368355,
+  "sample_rate": 24000,
+  "ODE": {
+    "solver": "Euler",
+    "steps": 32,
+    "initial_noise_std": 0.5,
+    "speaker_id": 0
+  },
+  "original_checkpoint_sha256": {
+    "acoustic": "b65fe825341d27bf3a088b5079b29b9f24a6f410b584f15a91143ee73002e758",
+    "vocoder": "7cc01ded07cc1e2aa67403250c8dbc2fb4477f988e918ae4a34bb33aac76cf52"
+  },
+  "exports_contain_optimizer": false,
+  "files": [
+    {
+      "name": "acoustic.pt",
+      "bytes": 33753207,
+      "sha256": "16e7eed1750118bd5e328119fcb6d4cb805f8091bdbe6a6a3add9aad6f6cdfd7",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/v0.1.0/acoustic.pt"
+    },
+    {
+      "name": "vocoder.pt",
+      "bytes": 3804924,
+      "sha256": "9e3ebc83859690d51ef9083730f77e0ff5f9434e320705fb9672be8a5bfd5fc4",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/v0.1.0/vocoder.pt"
+    }
+  ]
+}

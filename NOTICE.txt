@@ -1,0 +1,3 @@
+Mandia Voix 9M v0.1 — publication expérimentale, 16 octobre 2026.
+Code et poids propres au projet Mandia : usage restreint, contacter le responsable pour le périmètre de réutilisation. Aucune licence générale de redistribution n'est accordée dans cette version. Les données tierces restent soumises à leurs propres conditions. L'attribution et la licence de SIWIS sont documentées dans README.md. Aucun enregistrement d'entraînement n'est inclus.
+

@@ -1,0 +1,22 @@
+{
+  "status": "exports_verified_before_publication",
+  "date": "2026-10-16",
+  "parameters": {
+    "acoustic": 8423841,
+    "vocoder": 944514
+  },
+  "source_checkpoints_sha256_verified": true,
+  "export_tensors_bitwise_equal": true,
+  "strict_load": true,
+  "CPU_tensor_path_finite_and_deterministic": true,
+  "baseline_sampler_parity": true,
+  "test_tokens": "precomputed phonetic symbols; eSpeak not installed in export environment",
+  "full_text_frontend_rerun_in_export_environment": false,
+  "eSpeak_version_in_original_experiment": "1.51",
+  "training_performed_for_publication": false,
+  "human_naturalness_validated": false,
+  "Ivorian_accent_validated": false,
+  "heavy_checkpoint_files_written_to_Mac": false,
+  "full_training_checkpoints_preserved_in_Drive": true,
+  "export_weight_bytes": 37558131
+}
