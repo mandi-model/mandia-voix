@@ -1,0 +1,28 @@
+{
+  "status": "exports_verified_before_publication",
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "variant": "french",
+      "strict_load": true,
+      "safetensors_roundtrip_bitwise_equal": true,
+      "greedy_code_path_matches_original": true,
+      "no_optimizer_or_Drive_metadata_in_export": true,
+      "frontend_test": "precomputed phonetic symbols; original Colab text/audio evaluation retained, not rerun here"
+    },
+    {
+      "variant": "mixed_CI",
+      "strict_load": true,
+      "safetensors_roundtrip_bitwise_equal": true,
+      "greedy_code_path_matches_original": true,
+      "no_optimizer_or_Drive_metadata_in_export": true,
+      "frontend_test": "precomputed phonetic symbols; original Colab text/audio evaluation retained, not rerun here"
+    }
+  ],
+  "N_kept_reference": true,
+  "Mimi_voice_promoted": false,
+  "heavy_weights_written_to_Mac": false,
+  "full_training_checkpoints_remain_private_in_Drive": 26,
+  "source_experiments_date": "2026-10-23",
+  "training_for_publication": false
+}

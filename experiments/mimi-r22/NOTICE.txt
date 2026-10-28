@@ -1,0 +1,28 @@
+Mandia Voix Mimi r22 — experimental research artifacts.
+
+Free download for inspection and research. No production-quality, naturalness,
+validated Ivorian-accent or state-of-the-art claim. Third-party components retain
+their original terms; this package does not license third-party source recordings.
+The platform entry uses "Usage restreint" pending a documented unified weight
+license; do not infer an unrestricted commercial license from a free download.
+
+Mimi codec and codebook-derived initialization: Kyutai, CC BY 4.0.
+https://huggingface.co/kyutai/mimi
+Revision: 89091b3e466eb6a9d11e537bf26b144f194978f7
+Moshi paper: https://kyutai.org/Moshi.pdf
+Our predictor reuses our N lexical encoder and initialized codebook embeddings;
+it is not an entirely random-init or entirely Mandia-pretrained system.
+
+French corpus: SIWIS French Speech Synthesis Database, 2016, Yamagishi,
+Honnet, Garner and Lazaridis, University of Edinburgh (2017).
+https://doi.org/10.7488/ds/1705 — CC BY 4.0 as documented by the corpus.
+Resampling, automatic alignment and preprocessing are modifications.
+IvoireTTS: https://dataset.mandia.org/gnakalehacker/ivoiretts-v0-1
+The small CI adaptation subset comes from one source; the source example's
+accent/cleanup received listener feedback, not a full verbatim/speaker audit.
+Neither the source recordings nor the user's personal test voice are included.
+
+Own pilot implementation draws on temporal/depth decoder ideas discussed by
+Moshi and CSM: https://github.com/SesameAILabs/csm
+No architectural novelty, faithful reproduction, superiority or Suno/ElevenLabs
+quality claim. The 9M release and its license remain unchanged.

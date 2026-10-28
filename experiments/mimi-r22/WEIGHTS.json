@@ -1,0 +1,28 @@
+{
+  "version": "mimi-r22-experimental",
+  "predictor_parameters": 17878995,
+  "trainable_parameters": 14421891,
+  "Mimi_revision": "89091b3e466eb6a9d11e537bf26b144f194978f7",
+  "Mimi_codebooks": 8,
+  "Mimi_frozen": true,
+  "Mimi_included_in_predictor_size": false,
+  "sample_rate": 24000,
+  "files": {
+    "fr": {
+      "name": "french-r22.safetensors",
+      "bytes": 71537916,
+      "sha256": "ea7c4035109e651d250925d0b96916f8c9608112ddce134b7330e36c68497128",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/mimi-r22-experimental/french-r22.safetensors",
+      "source_export_sha256": "352a66b93d442a496d37a610d82b0ec76fdd94a43db398f62e079c00efdf46dd",
+      "source_selected_step": 9000
+    },
+    "ci": {
+      "name": "ivoire-r22.safetensors",
+      "bytes": 71537924,
+      "sha256": "756ddfe48c4d5686128908b39861a28ea20d7a58482ce6d61be6925a487e2e68",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/mimi-r22-experimental/ivoire-r22.safetensors",
+      "source_export_sha256": "2feceeb8e5146f812d81e3a09019f26e1643109caa7ec35ffe2010758dad51fd",
+      "source_selected_step": 1000
+    }
+  }
+}

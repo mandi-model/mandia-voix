@@ -1,0 +1,66 @@
+{
+  "ASR_fresh_only": {
+    "turbo/N": {
+      "words": 99,
+      "edits": 7,
+      "deletions": 0,
+      "clips": 4
+    },
+    "turbo/M21-FR-greedy": {
+      "words": 99,
+      "edits": 39,
+      "deletions": 5,
+      "clips": 4
+    },
+    "turbo/M21-CI-greedy": {
+      "words": 99,
+      "edits": 74,
+      "deletions": 6,
+      "clips": 4
+    },
+    "turbo/M21-CI-sampled": {
+      "words": 99,
+      "edits": 81,
+      "deletions": 6,
+      "clips": 4
+    },
+    "medium/N": {
+      "words": 99,
+      "edits": 15,
+      "deletions": 1,
+      "clips": 4
+    },
+    "medium/M21-FR-greedy": {
+      "words": 99,
+      "edits": 51,
+      "deletions": 6,
+      "clips": 4
+    },
+    "medium/M21-CI-greedy": {
+      "words": 99,
+      "edits": 83,
+      "deletions": 8,
+      "clips": 4
+    },
+    "medium/M21-CI-sampled": {
+      "words": 99,
+      "edits": 93,
+      "deletions": 2,
+      "clips": 4
+    }
+  },
+  "fresh_texts": 4,
+  "known_training_text_controls": 2,
+  "predictor_parameters": 17878995,
+  "trainable_parameters": 14421891,
+  "N_reference_unchanged": true,
+  "Mimi_pretrained_frozen": true,
+  "personal_recording_training": false,
+  "limits": [
+    "Small strict CI pilot, about5 minutes, may be insufficient to learn a general Ivorian accent.",
+    "Teacher forcing and validation code prediction do not guarantee intelligible free generation.",
+    "The complete chain includes the pretrained Mimi codec; predictor size alone is not total system size.",
+    "Reused validation recordings are not an independent new benchmark.",
+    "N remains a reference, and all trials including poor outputs are retained."
+  ]
+}

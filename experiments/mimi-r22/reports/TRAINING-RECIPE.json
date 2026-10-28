@@ -1,0 +1,42 @@
+{
+  "training": {
+    "v21": {
+      "French_steps": 3000,
+      "mixed_steps": 2000,
+      "checkpoints": 12
+    },
+    "r22": {
+      "additional_French_steps": 10000,
+      "mixed_steps": 1000,
+      "checkpoints": 14,
+      "French_selected_additional_step": 9000,
+      "CI_selected_step": 1000
+    }
+  },
+  "corpus": {
+    "French_train_clips": 4096,
+    "French_train_seconds": 16393.094416666667,
+    "CI_train_clips": 49,
+    "CI_train_seconds": 311.3100416666667,
+    "CI_sources": 1
+  },
+  "selection": "Held-out loss only; fresh ASR/listening not used to select checkpoints.",
+  "optimizer": "AdamW (.9,.95), BF16 autocast with FP32 parameters, gradient clip1",
+  "FR_lr": {
+    "v21": 0.0003,
+    "r22": 0.0002
+  },
+  "CI_lr": {
+    "v21": 0.0001,
+    "r22": 3e-05
+  },
+  "batch": "8FR then6FR+2CI",
+  "encoder": "Frozen lexical stem copied from own N; no user personal-recording training",
+  "architecture_source_sha256": "f001ec550a831f9cf2fbe046f4c88423f46339986d6f42f10233c28e7fb33bb5",
+  "data_protocol_sha256": "08c0e27f9642054d8160a2e9e8f830535d217ddd53aa386ef40e810798281bd4",
+  "source_training_scripts_sha256": {
+    "train_recovery22.py": "9f7718b9e73394791047591b9bcfde85313d324f7dffa595f6c231952da3cbb8",
+    "train21.py": "d6a8966628e1509361ee5493187fe8363beef8828e4bf49677d73a6c3bff47bd"
+  },
+  "limitations": "Training manifests and raw third-party recordings are not redistributed; this is inference plus an audit recipe, not a fully redistributable corpus reproduction package."
+}

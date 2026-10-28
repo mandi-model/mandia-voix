@@ -1,0 +1,22 @@
+{
+  "stem_config": {
+    "speakers": 2,
+    "vocab": 1026,
+    "dim": 256,
+    "encoder_layers": 6,
+    "flow_layers": 12,
+    "expansion": 3,
+    "kernel": 7,
+    "mel": 80,
+    "sample_rate": 24000,
+    "n_fft": 1024,
+    "hop": 256,
+    "vocoder_dim": 128,
+    "vocoder_layers": 8,
+    "depthwise": true,
+    "encoder_attention": true
+  },
+  "dim": 320,
+  "layers": 6,
+  "books": 8
+}
