@@ -1,5 +1,5 @@
 {
-  "status": "exports_verified_before_publication",
+  "status": "public_prerelease_and_server_asset_digests_verified",
   "date": "2026-10-28",
   "checks": [
     {
@@ -24,5 +24,30 @@
   "heavy_weights_written_to_Mac": false,
   "full_training_checkpoints_remain_private_in_Drive": 26,
   "source_experiments_date": "2026-10-23",
-  "training_for_publication": false
+  "training_for_publication": false,
+  "repository_url": "https://github.com/mandi-model/mandia-voix",
+  "release_url": "https://github.com/mandi-model/mandia-voix/releases/tag/mimi-r22-experimental",
+  "source_commit": "5e6f4f51f4f19afac64ab0dd435a5a952be700a5",
+  "assets": [
+    {
+      "name": "french-r22.safetensors",
+      "bytes": 71537916,
+      "sha256": "ea7c4035109e651d250925d0b96916f8c9608112ddce134b7330e36c68497128",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/mimi-r22-experimental/french-r22.safetensors",
+      "GitHub_reported_SHA256_matches_export": true
+    },
+    {
+      "name": "ivoire-r22.safetensors",
+      "bytes": 71537924,
+      "sha256": "756ddfe48c4d5686128908b39861a28ea20d7a58482ce6d61be6925a487e2e68",
+      "url": "https://github.com/mandi-model/mandia-voix/releases/download/mimi-r22-experimental/ivoire-r22.safetensors",
+      "GitHub_reported_SHA256_matches_export": true
+    }
+  ],
+  "GitHub_reported_SHA256_matches_exports": true,
+  "public_download_full_readback": {
+    "French": true,
+    "CI": false
+  },
+  "public_download_limit": "The CI public download was readable in ranges but a redundant full readback was stopped after network stalls; no full independent CI public-download hash is claimed. Both assets match GitHub-reported SHA256 and size, and both safetensors exports pass strict bitwise roundtrip and code-path parity checks."
 }
